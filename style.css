@@ -1,0 +1,16 @@
+.global-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+/* Medium screens */
+@media (min-width: 768px) {
+  .global-title {
+    font-size: 1rem; 
+  }
+}
+/* Large screens  */
+@media (min-width: 1024px) {
+  .global-title {
+    font-size: 1.2rem;  
+  }
+}
